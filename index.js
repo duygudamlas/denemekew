@@ -249,4 +249,4 @@ client.registry
 	.registerDefaultCommands({ help: false })
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
